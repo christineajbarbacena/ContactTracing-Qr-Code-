@@ -36,6 +36,7 @@
             this.txtboxScanQr = new System.Windows.Forms.TextBox();
             this.bttnstart = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.bttnSaveInfo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbImageScan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,7 +83,7 @@
             this.bttnstart.BackColor = System.Drawing.Color.Turquoise;
             this.bttnstart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnstart.ForeColor = System.Drawing.Color.Black;
-            this.bttnstart.Location = new System.Drawing.Point(290, 273);
+            this.bttnstart.Location = new System.Drawing.Point(290, 252);
             this.bttnstart.Name = "bttnstart";
             this.bttnstart.Size = new System.Drawing.Size(161, 24);
             this.bttnstart.TabIndex = 9;
@@ -95,12 +96,26 @@
             this.timer.Interval = 1000;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
+            // bttnSaveInfo
+            // 
+            this.bttnSaveInfo.BackColor = System.Drawing.Color.Lime;
+            this.bttnSaveInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnSaveInfo.ForeColor = System.Drawing.Color.Black;
+            this.bttnSaveInfo.Location = new System.Drawing.Point(290, 282);
+            this.bttnSaveInfo.Name = "bttnSaveInfo";
+            this.bttnSaveInfo.Size = new System.Drawing.Size(161, 24);
+            this.bttnSaveInfo.TabIndex = 10;
+            this.bttnSaveInfo.Text = "Save Info";
+            this.bttnSaveInfo.UseVisualStyleBackColor = false;
+            this.bttnSaveInfo.Click += new System.EventHandler(this.bttnSaveInfo_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(493, 339);
+            this.Controls.Add(this.bttnSaveInfo);
             this.Controls.Add(this.bttnstart);
             this.Controls.Add(this.txtboxScanQr);
             this.Controls.Add(this.pbImageScan);
@@ -110,6 +125,7 @@
             this.MinimizeBox = false;
             this.Name = "Form4";
             this.Text = "QR Code Scan";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form4_FormClosing);
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbImageScan)).EndInit();
             this.ResumeLayout(false);
@@ -125,5 +141,6 @@
         private System.Windows.Forms.TextBox txtboxScanQr;
         private System.Windows.Forms.Button bttnstart;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Button bttnSaveInfo;
     }
 }

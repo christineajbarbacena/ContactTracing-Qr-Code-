@@ -43,6 +43,9 @@ namespace Contact_Tracing_Form
             vcdevice = new VideoCaptureDevice(filterinfocollection[cbcamera.SelectedIndex].MonikerString);
             vcdevice.NewFrame += new NewFrameEventHandler(Vcdevice_NewFrame);
 
+            vcdevice.Start();
+            timer.Start();
+
         }
 
         private void Vcdevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
@@ -64,6 +67,20 @@ namespace Contact_Tracing_Form
                         vcdevice.Stop();
                 }
             }
+        }
+
+        private void Form4_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (vcdevice.IsRunning)
+                vcdevice.Stop();
+        }
+
+        private void bttnSaveInfo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Informations Saved!");
+            StreamWriter write = new StreamWriter(@"C:\Users\barbacena\Desktop\ContactTracingResponses\infofromqr.txt", true);
+            write.WriteLine(txtboxScanQr.Text);
+            write.Close();
         }
     }
 }
