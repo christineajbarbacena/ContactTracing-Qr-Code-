@@ -1,0 +1,11 @@
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\bin\Debug\Contact Tracing Form.exe.config
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\bin\Debug\Contact Tracing Form.exe
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\bin\Debug\Contact Tracing Form.pdb
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.csproj.AssemblyReference.cache
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.csproj.SuggestedBindingRedirects.cache
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.Form1.resources
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.Properties.Resources.resources
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.csproj.GenerateResource.cache
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.csproj.CoreCompileInputs.cache
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.exe
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.pdb
