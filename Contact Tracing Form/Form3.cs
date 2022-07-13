@@ -16,5 +16,10 @@ namespace Contact_Tracing_Form
         {
             InitializeComponent();
         }
+
+        private void bttnGenerate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
