@@ -408,6 +408,7 @@
             this.bttnSubmit.TabIndex = 72;
             this.bttnSubmit.Text = "Submit";
             this.bttnSubmit.UseVisualStyleBackColor = false;
+            this.bttnSubmit.Click += new System.EventHandler(this.bttnSubmit_Click);
             // 
             // Form1
             // 
