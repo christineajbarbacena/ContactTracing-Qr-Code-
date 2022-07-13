@@ -53,6 +53,7 @@
             this.pbqrcode.Location = new System.Drawing.Point(50, 51);
             this.pbqrcode.Name = "pbqrcode";
             this.pbqrcode.Size = new System.Drawing.Size(301, 253);
+            this.pbqrcode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbqrcode.TabIndex = 59;
             this.pbqrcode.TabStop = false;
             // 
@@ -95,12 +96,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(638, 369);
+            this.ClientSize = new System.Drawing.Size(618, 372);
             this.Controls.Add(this.bttnsave);
             this.Controls.Add(this.bttnGenerate);
             this.Controls.Add(this.txtboxresponses);
             this.Controls.Add(this.pbqrcode);
             this.Controls.Add(this.lblGenerateQr);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form3";
             this.Text = "Generate QR Code";
             ((System.ComponentModel.ISupportInitialize)(this.pbqrcode)).EndInit();

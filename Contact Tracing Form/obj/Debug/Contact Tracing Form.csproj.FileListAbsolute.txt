@@ -9,3 +9,7 @@ C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\De
 C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.csproj.CoreCompileInputs.cache
 C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.exe
 C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.pdb
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\bin\Debug\QRCoder.dll
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.Form2.resources
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.Form3.resources
+C:\Users\barbacena\source\repos\Contact Tracing Form\Contact Tracing Form\obj\Debug\Contact Tracing Form.csproj.CopyComplete
