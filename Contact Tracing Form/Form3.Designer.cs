@@ -87,6 +87,7 @@
             this.bttnsave.TabIndex = 62;
             this.bttnsave.Text = "Save Qr ";
             this.bttnsave.UseVisualStyleBackColor = false;
+            this.bttnsave.Click += new System.EventHandler(this.bttnsave_Click);
             // 
             // Form3
             // 

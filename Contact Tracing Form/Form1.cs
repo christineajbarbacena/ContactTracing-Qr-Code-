@@ -44,5 +44,46 @@ namespace Contact_Tracing_Form
             MessageBox.Show("Thank you Mr/Ms." + txtboxSurname.Text);
             this.Close();
         }
+
+        private void bttnAdminSignIn_Click(object sender, EventArgs e)
+        {
+            //adding username and password for sign in button
+            string username = txtboxUsername.Text;
+            string password = txtboxPassword.Text;
+
+            if ((username == "admin") && (password == "admin"))
+
+            //right password and username
+            {
+                this.Hide();
+                Form2 adminForm = new Form2();
+                adminForm.ShowDialog();
+            }
+
+            //incorrect username and password
+            else
+            {
+                MessageBox.Show("Incorrect Username and/or Password");
+            }
+        }
+
+        private void bttnGenerate_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Redirecting to Generate Form");
+
+            StreamWriter file = new StreamWriter(@"C:\Users\barbacena\Desktop\ContactTracingResponses\generatedqr.txt", true);
+            file.WriteLine("Date and Time: " + txtboxDate.Text + " , " + txtboxTime.Text + "Name: " + txtboxSurname.Text + "," + txtboxFirstName.Text + " " + txtboxMiddleInitial.Text + "." + " " + txtboxSuffix.Text + "Birth Date: " + txtboxBirthdate.Text + "Age: " + txtboxAge.Text + " years old" + "Sex: " + txtboxSex.Text + "ADDRESS " + txtboxProvince.Text + ", " + txtboxCity.Text + ", " + txtboxStreetName.Text + ", " + txtboxBarangay.Text);
+            file.Close();
+
+            Form3 GenerateForm = new Form3();
+            GenerateForm.ShowDialog();
+        }
+
+        private void bttnScan_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Redirecting to Scan Form");
+            Form4 ScanQr = new Form4();
+            ScanQr.ShowDialog();
+        }
     }
 }

@@ -70,6 +70,8 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.txtboxPassword = new System.Windows.Forms.TextBox();
             this.bttnAdminSignIn = new System.Windows.Forms.Button();
+            this.bttnGenerate = new System.Windows.Forms.Button();
+            this.bttnScan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbltitle
@@ -476,6 +478,29 @@
             this.bttnAdminSignIn.TabIndex = 78;
             this.bttnAdminSignIn.Text = "Sign In";
             this.bttnAdminSignIn.UseVisualStyleBackColor = false;
+            this.bttnAdminSignIn.Click += new System.EventHandler(this.bttnAdminSignIn_Click);
+            // 
+            // bttnGenerate
+            // 
+            this.bttnGenerate.BackColor = System.Drawing.Color.Salmon;
+            this.bttnGenerate.Location = new System.Drawing.Point(16, 379);
+            this.bttnGenerate.Name = "bttnGenerate";
+            this.bttnGenerate.Size = new System.Drawing.Size(176, 32);
+            this.bttnGenerate.TabIndex = 79;
+            this.bttnGenerate.Text = "Generate Qr Code";
+            this.bttnGenerate.UseVisualStyleBackColor = false;
+            this.bttnGenerate.Click += new System.EventHandler(this.bttnGenerate_Click);
+            // 
+            // bttnScan
+            // 
+            this.bttnScan.BackColor = System.Drawing.Color.Salmon;
+            this.bttnScan.Location = new System.Drawing.Point(221, 379);
+            this.bttnScan.Name = "bttnScan";
+            this.bttnScan.Size = new System.Drawing.Size(170, 32);
+            this.bttnScan.TabIndex = 80;
+            this.bttnScan.Text = "Scan Qr Code";
+            this.bttnScan.UseVisualStyleBackColor = false;
+            this.bttnScan.Click += new System.EventHandler(this.bttnScan_Click);
             // 
             // Form1
             // 
@@ -484,6 +509,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bttnScan);
+            this.Controls.Add(this.bttnGenerate);
             this.Controls.Add(this.bttnAdminSignIn);
             this.Controls.Add(this.txtboxPassword);
             this.Controls.Add(this.lblPassword);
@@ -577,6 +604,8 @@
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.TextBox txtboxPassword;
         private System.Windows.Forms.Button bttnAdminSignIn;
+        private System.Windows.Forms.Button bttnGenerate;
+        private System.Windows.Forms.Button bttnScan;
     }
 }
 
