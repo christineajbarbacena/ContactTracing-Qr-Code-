@@ -61,16 +61,16 @@
             // 
             this.txtboxresponses.BackColor = System.Drawing.SystemColors.Info;
             this.txtboxresponses.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxresponses.Location = new System.Drawing.Point(407, 51);
+            this.txtboxresponses.Location = new System.Drawing.Point(377, 12);
             this.txtboxresponses.Multiline = true;
             this.txtboxresponses.Name = "txtboxresponses";
-            this.txtboxresponses.Size = new System.Drawing.Size(197, 322);
+            this.txtboxresponses.Size = new System.Drawing.Size(197, 384);
             this.txtboxresponses.TabIndex = 60;
             // 
             // bttnGenerate
             // 
             this.bttnGenerate.BackColor = System.Drawing.Color.OrangeRed;
-            this.bttnGenerate.Location = new System.Drawing.Point(494, 402);
+            this.bttnGenerate.Location = new System.Drawing.Point(190, 335);
             this.bttnGenerate.Name = "bttnGenerate";
             this.bttnGenerate.Size = new System.Drawing.Size(161, 35);
             this.bttnGenerate.TabIndex = 61;
@@ -82,7 +82,7 @@
             // 
             this.bttnsave.BackColor = System.Drawing.Color.LightGray;
             this.bttnsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnsave.Location = new System.Drawing.Point(362, 407);
+            this.bttnsave.Location = new System.Drawing.Point(50, 340);
             this.bttnsave.Name = "bttnsave";
             this.bttnsave.Size = new System.Drawing.Size(126, 30);
             this.bttnsave.TabIndex = 62;
@@ -96,7 +96,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(678, 449);
+            this.ClientSize = new System.Drawing.Size(634, 449);
             this.Controls.Add(this.bttnsave);
             this.Controls.Add(this.bttnGenerate);
             this.Controls.Add(this.txtboxresponses);
