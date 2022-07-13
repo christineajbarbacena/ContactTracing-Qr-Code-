@@ -59,6 +59,7 @@ namespace Contact_Tracing_Form
             {
                 BarcodeReader barcode = new BarcodeReader();
                 Result result = barcode.Decode((Bitmap)pbImageScan.Image);
+
                 if (result != null)
                 {
                     txtboxScanQr.Text = result.ToString();
@@ -77,7 +78,7 @@ namespace Contact_Tracing_Form
 
         private void bttnSaveInfo_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Informations Saved!");
+            MessageBox.Show("Information Saved!");
             StreamWriter write = new StreamWriter(@"C:\Users\barbacena\Desktop\ContactTracingResponses\infofromqr.txt", true);
             write.WriteLine(txtboxScanQr.Text);
             write.Close();

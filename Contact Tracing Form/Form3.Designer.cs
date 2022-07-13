@@ -64,13 +64,13 @@
             this.txtboxresponses.Location = new System.Drawing.Point(407, 51);
             this.txtboxresponses.Multiline = true;
             this.txtboxresponses.Name = "txtboxresponses";
-            this.txtboxresponses.Size = new System.Drawing.Size(197, 159);
+            this.txtboxresponses.Size = new System.Drawing.Size(197, 322);
             this.txtboxresponses.TabIndex = 60;
             // 
             // bttnGenerate
             // 
             this.bttnGenerate.BackColor = System.Drawing.Color.OrangeRed;
-            this.bttnGenerate.Location = new System.Drawing.Point(428, 233);
+            this.bttnGenerate.Location = new System.Drawing.Point(494, 402);
             this.bttnGenerate.Name = "bttnGenerate";
             this.bttnGenerate.Size = new System.Drawing.Size(161, 35);
             this.bttnGenerate.TabIndex = 61;
@@ -82,7 +82,7 @@
             // 
             this.bttnsave.BackColor = System.Drawing.Color.LightGray;
             this.bttnsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnsave.Location = new System.Drawing.Point(448, 274);
+            this.bttnsave.Location = new System.Drawing.Point(362, 407);
             this.bttnsave.Name = "bttnsave";
             this.bttnsave.Size = new System.Drawing.Size(126, 30);
             this.bttnsave.TabIndex = 62;
@@ -96,7 +96,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(618, 372);
+            this.ClientSize = new System.Drawing.Size(678, 449);
             this.Controls.Add(this.bttnsave);
             this.Controls.Add(this.bttnGenerate);
             this.Controls.Add(this.txtboxresponses);

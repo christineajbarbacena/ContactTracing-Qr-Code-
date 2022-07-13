@@ -60,10 +60,9 @@
             // 
             // pbImageScan
             // 
-            this.pbImageScan.Location = new System.Drawing.Point(21, 88);
+            this.pbImageScan.Location = new System.Drawing.Point(29, 88);
             this.pbImageScan.Name = "pbImageScan";
-            this.pbImageScan.Size = new System.Drawing.Size(226, 209);
-            this.pbImageScan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pbImageScan.Size = new System.Drawing.Size(255, 274);
             this.pbImageScan.TabIndex = 7;
             this.pbImageScan.TabStop = false;
             // 
@@ -71,11 +70,11 @@
             // 
             this.txtboxScanQr.BackColor = System.Drawing.SystemColors.Info;
             this.txtboxScanQr.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxScanQr.ForeColor = System.Drawing.SystemColors.Info;
+            this.txtboxScanQr.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtboxScanQr.Location = new System.Drawing.Point(290, 88);
             this.txtboxScanQr.Multiline = true;
             this.txtboxScanQr.Name = "txtboxScanQr";
-            this.txtboxScanQr.Size = new System.Drawing.Size(161, 158);
+            this.txtboxScanQr.Size = new System.Drawing.Size(161, 199);
             this.txtboxScanQr.TabIndex = 8;
             // 
             // bttnstart
@@ -83,7 +82,7 @@
             this.bttnstart.BackColor = System.Drawing.Color.Turquoise;
             this.bttnstart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnstart.ForeColor = System.Drawing.Color.Black;
-            this.bttnstart.Location = new System.Drawing.Point(290, 252);
+            this.bttnstart.Location = new System.Drawing.Point(290, 293);
             this.bttnstart.Name = "bttnstart";
             this.bttnstart.Size = new System.Drawing.Size(161, 24);
             this.bttnstart.TabIndex = 9;
@@ -101,7 +100,7 @@
             this.bttnSaveInfo.BackColor = System.Drawing.Color.Lime;
             this.bttnSaveInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnSaveInfo.ForeColor = System.Drawing.Color.Black;
-            this.bttnSaveInfo.Location = new System.Drawing.Point(290, 282);
+            this.bttnSaveInfo.Location = new System.Drawing.Point(290, 323);
             this.bttnSaveInfo.Name = "bttnSaveInfo";
             this.bttnSaveInfo.Size = new System.Drawing.Size(161, 24);
             this.bttnSaveInfo.TabIndex = 10;
@@ -114,7 +113,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(493, 339);
+            this.ClientSize = new System.Drawing.Size(517, 444);
             this.Controls.Add(this.bttnSaveInfo);
             this.Controls.Add(this.bttnstart);
             this.Controls.Add(this.txtboxScanQr);
