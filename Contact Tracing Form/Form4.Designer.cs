@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.lblCamera = new System.Windows.Forms.Label();
             this.cbcamera = new System.Windows.Forms.ComboBox();
             this.pbImageScan = new System.Windows.Forms.PictureBox();
             this.txtboxScanQr = new System.Windows.Forms.TextBox();
             this.bttnstart = new System.Windows.Forms.Button();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbImageScan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,6 +88,12 @@
             this.bttnstart.TabIndex = 9;
             this.bttnstart.Text = "Scan";
             this.bttnstart.UseVisualStyleBackColor = false;
+            this.bttnstart.Click += new System.EventHandler(this.bttnstart_Click);
+            // 
+            // timer
+            // 
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // Form4
             // 
@@ -102,6 +110,7 @@
             this.MinimizeBox = false;
             this.Name = "Form4";
             this.Text = "QR Code Scan";
+            this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbImageScan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -115,5 +124,6 @@
         private System.Windows.Forms.PictureBox pbImageScan;
         private System.Windows.Forms.TextBox txtboxScanQr;
         private System.Windows.Forms.Button bttnstart;
+        private System.Windows.Forms.Timer timer;
     }
 }
